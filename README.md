@@ -73,4 +73,22 @@ Entretanto no caso dos usuários, eles poderão apenas visualizar os produtos qu
 -   **RN006 -** O cliente e o usuário poderá fazer compras na loja.
 -   **RN007 -** O caixa poderá aceitar cartões de crédito e/ou débito.
 -   **RN008 -** O relatório do fluxo do caixa, deverá emitir a contabilidade dos produtos e do dinheiro.
--   **RN009 -**
+
+=
+
+-   **RF001 - Fazer cadastro na loja:** O usuário poderá fazer o      cadastro para poder utilizar o aplicativo da loja. 
+-   Dados Necessários: Nome Completo, CPF, RG, Senha e Número de celular
+-   Usuários: Clientes
+-   **RF002 - Autenticação do usuário:** O sistema vai autenticar o cadastro do cliente, verificando se ele pode acessar a sua conta no aplicativo e caso possa, ele poderá usar o aplicativo.
+-   Dados Necessários: Nome Completo, Senha e permissão
+-   Usuários: Todos os clientes cadastrados
+-   **RF003 - Visualização dos itens:** O sistema vai providenciar a quantidade e cada item que estiver disponível no estoque da loja no aplicativo, apenas visível para os usuários cadastrados.
+-   Dados Necessários: Itens em estoque, Quantidade de itens
+-   Usuários: Todos os clientes cadastrados
+-   **RF004 - Relatório de vendas:** O sistema vai providenciar para o gerente da loja, o relatório de produtos vendidos no dia e mês, através dos produtos passados pelo caixa.
+-   Dados Necessários: Itens em estoque, Quantidade de itens
+-   Usuários: Gerente
+
+=
+
+-   **RNF001 - Segurança:** O sistema não deve permitir pessoas não cadastradas de usarem o aplicativo da loja. 
