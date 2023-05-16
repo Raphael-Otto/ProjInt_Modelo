@@ -68,27 +68,39 @@ Entretanto no caso dos usuários, eles poderão apenas visualizar os produtos qu
 -   **RN001 -** O administrador poderá visualizar a quantidade de itens vendidos durante o mês e/ou ano.
 -   **RN002 -** O administrador poderá visualizar a quantidade e itens que estão em estoque.
 -   **RN003 -** Os clientes precisam fazer o cadastro para acessar o aplicativo.
--   **RN004 -** O cliente deverá fazer o cadastro no caixa.
+-   **RN004 -** O cliente poderá fazer o cadastro no caixa.
 -   **RN005 -** Para efetuar o cadastro é necessário: CPF, RG, Email e uma senha.
 -   **RN006 -** O cliente e o usuário poderá fazer compras na loja.
 -   **RN007 -** O caixa poderá aceitar cartões de crédito e/ou débito.
 -   **RN008 -** O relatório do fluxo do caixa, deverá emitir a contabilidade dos produtos e do dinheiro.
 
-=
+# Requisitos Funcionais
 
--   **RF001 - Fazer cadastro na loja:** O usuário poderá fazer o      cadastro para poder utilizar o aplicativo da loja. 
+-   **RF001 - Fazer cadastro na loja:** O usuário deverá fazer o      cadastro para poder utilizar o aplicativo da loja. 
 -   Dados Necessários: Nome Completo, CPF, RG, Senha e Número de celular
 -   Usuários: Clientes
 -   **RF002 - Autenticação do usuário:** O sistema vai autenticar o cadastro do cliente, verificando se ele pode acessar a sua conta no aplicativo e caso possa, ele poderá usar o aplicativo.
 -   Dados Necessários: Nome Completo, Senha e permissão
 -   Usuários: Todos os clientes cadastrados
--   **RF003 - Visualização dos itens:** O sistema vai providenciar a quantidade e cada item que estiver disponível no estoque da loja no aplicativo, apenas visível para os usuários cadastrados.
+-   **RF003 - Visualização dos itens disponíveis:** O sistema vai providenciar todos os itens que estarão disponíveis na loja, apenas visível para os usuários cadastrados.
+-   Dados Necessários: Itens em estoque
+-   Usuários: Todos os clientes cadastrados
+-   **RF004 - Visualização da quantidade de itens:** O sistema vai providenciar a quantidade de cada item disponível na loja, apenas visível para os usuários cadastrados.
 -   Dados Necessários: Itens em estoque, Quantidade de itens
 -   Usuários: Todos os clientes cadastrados
--   **RF004 - Relatório de vendas:** O sistema vai providenciar para o gerente da loja, o relatório de produtos vendidos no dia e mês, através dos produtos passados pelo caixa.
+-   **RF005 - Relatório de vendas:** O sistema vai providenciar para o gerente da loja, o relatório de produtos vendidos no dia e mês, através dos produtos passados pelo caixa.
 -   Dados Necessários: Itens em estoque, Quantidade de itens
 -   Usuários: Gerente
 
-=
+# Requisitos não Funcionais
 
--   **RNF001 - Segurança:** O sistema não deve permitir pessoas não cadastradas de usarem o aplicativo da loja. 
+-   **RNF001 - Escalabilidade:** O sistema deve ser capaz de aumentar ou diminuir conforme necessário.
+-   **RNF002 - Compatibilidade:** O sistema deve ser compatível com outros sistemas mobile.
+-   **RNF003 - Confiabilidade:** O sistema deve ser confiável e atender aos requisitos do usuário.
+-   **RNF004 - Segurança:** O sistema não deve permitir pessoas não cadastradas de usarem o aplicativo da loja. 
+-   **RNF005 - Segurança:** O sistema não deve fornecer dados de outras pessoas.
+-   **RNF006 - Manutenção:** O sistema não deverá ficar fora do ar em atualizações e/ou em resoluções de problemas no aplicativo.
+-   **RNF007 - Banco de Dados:** O sistema será implementado com o banco de dados MySQL.
+-   **RNF008 - Legais:** O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
+-   **RNF009 - Técnologia Front-End:** Para a exibição em front-end, o software utilizará o CSS3 e o React Native, além das bibliotecas de Javascript.
+-   **RNF010 - Técnologia Back-End:** O software será desenvolvido pela linguagem de programação Django.
