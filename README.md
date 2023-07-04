@@ -24,42 +24,38 @@ Portanto, ao efetuar qualquer venda ele deveria poder visualizar e automaticamen
 
 # Descrição da proposta 
 
-O foco do software é fazer com que o administrador visualize os itens vendidos e os itens em estoque para que possa haver a compra de mais produtos para a venda do mercado.
+O foco do software é fazer com que o gerente consiga visualizar os itens vendidos e os itens em estoque para que possa haver a compra de mais produtos para a venda no mercado.
 
 No caso dos clientes cadastrados na loja, eles terão acesso a um aplicativo do estabelecimento em que será possível visualizar todos os itens disponíveis para compra no mercado e também possível visualizar se o item está em estoque ou não.
 
-Para um cliente efetuar o cadastro na loja, poderá se dirigir ao caixa, onde será oferecido a fazer a sua conta para poder acessar o aplicativo da loja.
+Caso algum dos clientes na loja não quiserem se cadastrar, o sistema deverá disponibilizar um "Cliente Genérico" para o uso do aplicativo. E para um cliente efetuar o cadastro na loja, poderá se dirigir ao caixa, onde será oferecido a fazer a sua conta para poder acessar o aplicativo da loja.
 
-O sistema terá 3 níveis de usuário: Gerente, Cliente, Caixa.
+O sistema terá 4 níveis de usuário: Gerente, Cliente não cadastrado, Cliente Cadastrado, Caixa.
 
-TODO: REFAZER!!!
+O Gerente poderá visualizar os itens em estoque e também as vendas que ocorrem durante o mês e/ou ano.
 
-No caso do administrador, será possível visualizar os itens em estoque e as vendas que ocorreram durante o mês e/ou ano.
+O Cliente terá acesso ao aplicativo da loja, mas não poderá efetuar compras por ele. Se ele for um Cliente Cadastrado, estará livre para efetuar qualquer compra de acordo com os itens disponíveis na loja
 
-Entretanto no caso dos usuários, eles poderão apenas visualizar os produtos que estão no mercado.
   
-Administrador: responsável pela manutenção do site e o banco de dados, na qual também poderá visualizar o banco para ter ideia do que é necessário.
+Gerente: Responsável por acessar o estoque para poder vizualizar os itens disponiveis e não disponiveis em estoque, também responsável por fazer o relatório de vendas
 
-Usuário: O usuário terá acesso ao aplicativo onde poderá ver os itens que estão a venda e em estoque; E também poderá efetuar as compras na loja.
+Cliente: O Cliente terá acesso ao aplicativo da loja, mas sem suas credenciais não poderá efetuar compras pelo aplicativo, apenas por meio presencial.
 
-Cliente: O cliente, diferente do usuário, não terá acesso ao aplicativo da loja, mas poderá efetuar compras no estabelecimento
+Cliente Cadastrado: Terá os mesmos benefícios que o Cliente, mas conseguirá fazer pedidos e compras no aplicativo de maneira online.
+
+Caixa: O Caixa será responsável pela venda e compra de itens no estabelecimento de forma presencial, e também servirá para fazer o cadastro de Clientes que procuram estar cadastrados.
 
 # Regras de negócios
 
-FIXME: COLOCAR NOMES NAS REGRAS E RENUMERAR
-
--   **RN001 -** O gerente poderá visualizar a quantidade de itens vendidos durante o mês e/ou ano.
--   **RN002 -** O gerente poderá visualizar a quantidade e itens que estão em estoque.
--   **RN003 -** Os clientes precisam fazer o cadastro para acessar o aplicativo.
--   **RN004 -** O cliente poderá fazer o cadastro no caixa.
--   **RN005 -** No caso do cliente não querer se cadastrar, será usado um Cliente genérico.
--   **RN007 -** O caixa poderá aceitar cartões de crédito e/ou débito.
--   **RN008 -** O Gerente poderá acessar um relatório do fluxo do caixa de um período determinado.
--   **RNF004 - Segurança:** O sistema não deve permitir pessoas não cadastradas de usarem o aplicativo da loja. 
+-   **RN001 - Visualizar Itens** O gerente poderá visualizar a quantidade de itens vendidos durante o mês e/ou ano.
+-   **RN002 - Visualizar Estoque** O gerente poderá visualizar a quantidade e itens que estão em estoque.
+-   **RN003 - Cadastro de Usuários** Os clientes precisam fazer o cadastro para acessar o aplicativo.
+-   **RN004 - Cadastro no Caixa** O cliente poderá fazer o cadastro no caixa.
+-   **RN005 - Cliente Não Cadastrado** No caso do cliente não querer se cadastrar, será usado um Cliente genérico.
+-   **RN006 - Forma de Pagamento** O caixa poderá aceitar cartões de crédito e/ou débito.
+-   **RN007 - Relatório do Fluxo de Caixa** O Gerente poderá acessar um relatório do fluxo do caixa de um período determinado.
 
 # Requisitos Funcionais
-
-FIXME: SEPARAR EM ENTRADA, PROCESSAMENTO E SAÍDA
 
 FIXME: REFORMATAR
 
@@ -69,7 +65,9 @@ FIXME: REFORMATAR
     -   **Dados Necessários:** Nome Completo, CPF, RG, Senha e Número de celular
     -   **Usuários:** Clientes
 
-- CADASTRO DE PRODUTOS ???
+-   **RF002 - Cadastro de produtos:** O usuário deverá fazer o cadastro para poder utilizar o aplicativo da loja. 
+    -   **Dados Necessários:** Nome do Produto, Preço, ID do produto
+    -   **Usuários:** Gerente
 
 **PROCESSAMENTO**
 
