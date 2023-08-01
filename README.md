@@ -85,14 +85,16 @@ PAGAMENTO??
 **SAÍDA**
 
 -   **RF001 - Visualização dos itens disponíveis:** O sistema vai providenciar todos os itens que estarão disponíveis na loja, apenas visível para os usuários cadastrados.
--   **Dados Necessários:** Itens em estoque
--   Usuários: Todos os clientes cadastrados
+    -   **Dados Necessários:** Itens em estoque
+    -   Usuários: Todos os clientes cadastrados
+
 -   **RF002 - Visualização da quantidade de itens:** O sistema vai providenciar a quantidade de cada item disponível na loja, apenas visível para os usuários cadastrados.
--   **Dados Necessários:** Itens em estoque, Quantidade de itens
--   Usuários: Todos os clientes cadastrados
+    -   **Dados Necessários:** Itens em estoque, Quantidade de itens
+    -   Usuários: Todos os clientes cadastrados
+
 -   **RF003 - Relatório de vendas:** O sistema vai providenciar para o gerente da loja, o relatório de produtos vendidos no dia e mês, através dos produtos passados pelo caixa.
--   **Dados Necessários:** Itens em estoque, Quantidade de itens
--   Usuários: Gerente
+    -   **Dados Necessários:** Itens em estoque, Quantidade de itens
+    -   Usuários: Gerente
 
 # Requisitos não Funcionais
 
