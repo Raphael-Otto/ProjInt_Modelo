@@ -60,18 +60,15 @@ Caixa: O Caixa será responsável pela venda e compra de itens no estabeleciment
 
 # Requisitos Funcionais
 
-FIXME: REFORMATAR
-
 **ENTRADA**
 
 -   **RF001 - Cadastro de usuário:** O usuário deverá fazer o cadastro para poder utilizar o aplicativo da loja. 
     -   **Dados Necessários:** Nome Completo, CPF, RG, Senha e Número de celular
     -   **Usuários:** Clientes
 
--   **RF002 - Cadastro de produtos:** O usuário deverá fazer o cadastro para poder utilizar o aplicativo da loja. 
+-   **RF002 - Cadastro de produtos:**O gerente deverá fazer o cadastro de cada produto que for colocado à venda no mercado
     -   **Dados Necessários:** Nome do Produto, Preço, ID do produto
     -   **Usuários:** Gerente
-
 
 **PROCESSAMENTO**
 
@@ -82,7 +79,6 @@ FIXME: REFORMATAR
 VENDA???
 
 PAGAMENTO??
-
 
 **SAÍDA**
 
