@@ -72,6 +72,7 @@ FIXME: REFORMATAR
     -   **Dados Necessários:** Nome do Produto, Preço, ID do produto
     -   **Usuários:** Gerente
 
+
 **PROCESSAMENTO**
 
 -   **RF001 - Autenticação do usuário:** O sistema vai autenticar o cadastro do cliente, verificando se ele pode acessar a sua conta no aplicativo e caso possa, ele poderá usar o aplicativo.
@@ -81,6 +82,7 @@ FIXME: REFORMATAR
 VENDA???
 
 PAGAMENTO??
+
 
 **SAÍDA**
 
