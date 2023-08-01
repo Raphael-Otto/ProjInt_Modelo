@@ -7,6 +7,8 @@ Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https
 
 Equipe:
 
+-   [Raphael Otto] (github.com/Raphael-Otto)
+
 Links do projeto:
 
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
