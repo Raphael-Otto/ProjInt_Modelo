@@ -74,7 +74,7 @@ FIXME: REFORMATAR
 
 **PROCESSAMENTO**
 
--   **RF002 - Autenticação do usuário:** O sistema vai autenticar o cadastro do cliente, verificando se ele pode acessar a sua conta no aplicativo e caso possa, ele poderá usar o aplicativo.
+-   **RF001 - Autenticação do usuário:** O sistema vai autenticar o cadastro do cliente, verificando se ele pode acessar a sua conta no aplicativo e caso possa, ele poderá usar o aplicativo.
     -   **Dados Necessários:** Nome Completo, Senha e permissão
     -   Usuários: Todos os clientes cadastrados
 
@@ -84,13 +84,13 @@ PAGAMENTO??
 
 **SAÍDA**
 
--   **RF003 - Visualização dos itens disponíveis:** O sistema vai providenciar todos os itens que estarão disponíveis na loja, apenas visível para os usuários cadastrados.
+-   **RF001 - Visualização dos itens disponíveis:** O sistema vai providenciar todos os itens que estarão disponíveis na loja, apenas visível para os usuários cadastrados.
 -   **Dados Necessários:** Itens em estoque
 -   Usuários: Todos os clientes cadastrados
--   **RF004 - Visualização da quantidade de itens:** O sistema vai providenciar a quantidade de cada item disponível na loja, apenas visível para os usuários cadastrados.
+-   **RF002 - Visualização da quantidade de itens:** O sistema vai providenciar a quantidade de cada item disponível na loja, apenas visível para os usuários cadastrados.
 -   **Dados Necessários:** Itens em estoque, Quantidade de itens
 -   Usuários: Todos os clientes cadastrados
--   **RF005 - Relatório de vendas:** O sistema vai providenciar para o gerente da loja, o relatório de produtos vendidos no dia e mês, através dos produtos passados pelo caixa.
+-   **RF003 - Relatório de vendas:** O sistema vai providenciar para o gerente da loja, o relatório de produtos vendidos no dia e mês, através dos produtos passados pelo caixa.
 -   **Dados Necessários:** Itens em estoque, Quantidade de itens
 -   Usuários: Gerente
 
