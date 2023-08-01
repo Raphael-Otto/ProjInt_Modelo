@@ -74,11 +74,15 @@ Caixa: O Caixa será responsável pela venda e compra de itens no estabeleciment
 
 -   **RF001 - Autenticação do usuário:** O sistema vai autenticar o cadastro do cliente, verificando se ele pode acessar a sua conta no aplicativo e caso possa, ele poderá usar o aplicativo.
     -   **Dados Necessários:** Nome Completo, Senha e permissão
-    -   Usuários: Todos os clientes cadastrados
+    -   **Usuários:** Todos os clientes cadastrados
 
-VENDA???
+-   **RF002 - Venda?:** sla vendakkkkkkk
+    -   **Dados Necessários:**
+    -   **Usuários:**
 
-PAGAMENTO??
+-   **RF003 - Pagamento?:** pagamento tmb sla kkkkkk n sei
+    -   **Dados Necessários:**
+    -   **Usuários:**
 
 **SAÍDA**
 
@@ -97,14 +101,13 @@ PAGAMENTO??
 # Requisitos não Funcionais
 
 -   **RNF001 - Escalabilidade:** O sistema deve ser capaz de aumentar ou diminuir conforme necessário.
--   **RNF002 - Compatibilidade:** O sistema deve ser compatível com outros sistemas mobile.
+-   **RNF002 - Compatibilidade:** O sistema deve ser compatível com o sistema IOS e Android.
+-   **RNF003 - Compatibilidade:** O aplicativo não será compatível com navegadores web, apenas mobile.
 -   **RNF003 - Confiabilidade:** O sistema deve ser confiável e atender aos requisitos do usuário.
 -   **RNF005 - Segurança:** O sistema não deve fornecer dados dos clientes para terceiros.
--   **RNF006 - Manutenção:** O sistema não deverá ficar fora do ar em atualizações e/ou em resoluções de problemas no aplicativo.
+-   **RNF006 - Manutenção:** Caso haja manutenção nos servidores, ele deverá ficar indisponível por tempo mínimo.
 -   **RNF007 - Banco de Dados:** O sistema será implementado com o banco de dados MySQL.
 -   **RNF008 - Legais:** O sistema deve atender às exigências da LGPD (Leis Gerais da Proteção de Dados).
--   **RNF009 - Tecnologia de front-end web:** Para a exibição em front-end, será utilizado CSS3, HTML5 e o framework de Javascript VueJS.
-- Tecnologia para desenvolvimento front-end mobile: REACT Native.
--   **RNF010 - Tecnologia Back-End:** O software será desenvolvido utilizando o framework Django com o DRF.
-- Navegadores???
-- Plataformas de smartphones??
+-   **RNF009 - Tecnologia de front-end Web:** Para a exibição em front-end, será utilizado CSS3, HTML5 e o framework de Javascript VueJS.
+-   **RNF010 - Tecnologia para desenvolvimento Front-End Mobile:** O desenvolvimento será feito utilizando o REACT Native.
+-   **RNF010 - Tecnologia para desenvolvimento Back-End Mobile:** O software será desenvolvido utilizando o framework Django com o DRF.
